@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <attr name="canvasStrokeViewStyle" format="reference"/>
+
+    <declare-styleable name="CanvasStrokeAnimationView">
+        <attr name="strokeColor" format="color"/>
+        <attr name="strokeWidth" format="dimension"/>
+        <attr name="strokeGap" format="dimension"/>
+    </declare-styleable>
+
+    <style name="Widget.CanvasStrokeAnimationView" parent="@android:style/Widget">
+        <item name="strokeWidth">1dp</item>
+        <item name="strokeColor">@android:color/black</item>
+        <item name="strokeGap">16dp</item>
+    </style>
+</resources>
